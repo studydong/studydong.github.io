@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: <span style="color:brown">Category</span>
+    url: /categories
+  - title: <span style="color:brown">Search</span>
+    url: /search
+  - title: <span style="color:darkbrown">블로그에서 사용한 테마</span>
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
