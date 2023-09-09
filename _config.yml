@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Go With The Flow : 💨" 
+title                    : "Go With The Flow 🎧" 
 title_separator          : "|"
 subtitle                 : <span style="color:rgb(228,96,94)">흐름에 몸을 맡겨라</span> 
 name                     : "동주선생 🙉"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : ISFP 동주선생 👻
-  avatar           : "/assets/images/동주선생.png"
-  bio              : "환영합니다 ;)"
+  name             : 
+  avatar           : "/assets/images/사막여우.jpg"
+  bio              : "동주선생 🙉 블로그 방문을 환영합니다 ;)"
   email            : #
   github           : #
   links:

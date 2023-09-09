@@ -44,6 +44,14 @@
   .current {
     font-weight: bold;
   }
+
+  a {
+    color: brown;
+  }
+
+  a:hover {
+    text-decoration: dashed;
+  }
 }
 
 /*
@@ -207,6 +215,7 @@
 
     &.site-title {
       margin-left: 0;
+      font-weight: bold;
     }
   }
 

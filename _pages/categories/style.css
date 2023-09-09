@@ -1,0 +1,11 @@
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: blue;
+}
+
+p {
+    color: red;
+}
