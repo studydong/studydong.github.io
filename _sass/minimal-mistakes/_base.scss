@@ -111,7 +111,8 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  border-left: 0.25em solid MediumSlateBlue;
+  border-top-left-right
 
   cite {
     font-style: italic;
@@ -311,10 +312,12 @@ nav {
 /*
    Global animation transition
    ========================================================================== */
+strong {
+  color: lightcoral;
+}
 
 b,
 i,
-strong,
 em,
 blockquote,
 p,
