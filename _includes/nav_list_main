@@ -3,56 +3,68 @@
 {% assign sum = site.posts | size %}
 
 <nav class="nav__list">
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
-  <ul class="nav__items" id="category_tag_menu">
-      <!--전체 글 수-->
-      <li>
-        📚 <span style="font-family:'GangwonEdu_OTFBoldA'; font-size:0.8rem">전체 글 수</style> <span style="font-family:'GangwonEdu_OTFBoldA';">{{sum}}</style> <span style="font-family:'GangwonEdu_OTFBoldA';">개</style> 
-      </li>
-      <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title" style="color:brown; font-size:1rem; font-family:'KyoboHand'" >html & css</span>
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+    <ul class="nav__items" id="category_tag_menu">
+        <!--전체 글 수-->
+        <li>
+            📚 <span style="font-family:'GangwonEdu_OTFBoldA'; font-size:0.8rem">전체 글 수</style> <span
+                    style="font-family:'GangwonEdu_OTFBoldA';">{{sum}}</style> <span
+                        style="font-family:'GangwonEdu_OTFBoldA';">개</style>
+        </li>
+        <li>
+            <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+            <span class="nav__sub-title" style="color:brown; font-size:1rem; font-family:'KyoboHand'">html & css</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
                 {% for category in site.categories %}
-                    {% if category[0] == "html" %}
-                        <li><a href="/categories/html" class="" style="color:rgba(2, 2, 2, 0.993); font-size:0.7rem; font-family:'KyoboHand'">HTML 기초({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "html" %}
+                <li><a href="/categories/html" class=""
+                        style="color:rgba(2, 2, 2, 0.993); font-size:0.7rem; font-family:'KyoboHand'">HTML
+                        기초({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "css" %}
-                        <li><a href="/categories/css" class="" >CSS 기초({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "css" %}
+                <li><a href="/categories/css" class="">CSS 기초({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title" style="color:brown; font-size:1rem; font-family:'KyoboHand'" >Java Script</span>
+            <span class="nav__sub-title" style="color:brown; font-size:1rem; font-family:'KyoboHand'">Java Script</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "javascript" %}
-                        <li><a href="/categories/javascript" class="">Java Script 기초 문법({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "javascript" %}
+                <li><a href="/categories/javascript" class="">Java Script 기초 문법({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
-            <ul> 
-                {% for category in site.categories %}
-                    {% if category[0] == "javascript_dom" %}
-                        <li><a href="/categories/javascript" class="">Java Script DOM({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title" style="color:brown; font-size:1rem; font-family:'KyoboHand'" >etc</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "github" %}
-                        <li><a href="/categories/github" class="">github blog({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "javascript_dom" %}
+                <li><a href="/categories/javascript" class="">Java Script DOM({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
-      </li>
-  </ul>
+            <span class="nav__sub-title" style="color:brown; font-size:1rem; font-family:'KyoboHand'">etc</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "github" %}
+                <li><a href="/categories/github" class="">github blog({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <span class="nav__sub-title" style="color:brown; font-size:1rem; font-family:'KyoboHand'">Excel</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "excel" %}
+                <li><a href="/categories/excel" class="">엑셀 기초({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
 </nav>
