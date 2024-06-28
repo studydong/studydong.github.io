@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -12,14 +14,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Go With The Flow 🎧" 
 title_separator          : "|"
-subtitle                 : <span style="color:rgb(228,96,94)">흐름에 몸을 맡겨라</span> 
-name                     : "동주선생 🙉"
+# subtitle                 : <span style="color:rgb(228,96,94)">흐름에 몸을 맡겨라</span> 
+name                     : "기록하는 동주선생 🙉"
 description              : "환영합니다 :)"
 url                      : "https://studydong.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,18 +106,18 @@ analytics:
 
 # Site Author
 author:
-  name             : 
+  name             : 기록하는 동주선생 🙉 
   avatar           : "/assets/images/사막여우.jpg"
-  bio              : "동주선생 🙉 블로그 방문을 환영합니다 ;)"
+  bio              : "블로그 방문을 환영합니다 ;)"
   email            : #
   github           : #
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "mailto:gaksunmee@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://velog.io/@devp1023/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -125,9 +127,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://studydong.github.io/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -135,12 +137,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://studydong.github.io/"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    # - label: "GitLab"
+    #   icon: "fab fa-fw fa-gitlab"
+    #   # url
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url:
 
 
 # Reading Files

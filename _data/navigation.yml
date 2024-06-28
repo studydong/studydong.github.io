@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: <span style="color:brown">Category</span>
+  - title: 카테고리
     url: /categories/
-  - title: <span style="color:brown">Search</span>
+  - title: 검색하기
     url: /search
-  - title: <span style="color:darkbrown">블로그에서 사용한 테마</span>
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: <span style="color:darkbrown">블로그에서 사용한 테마</span>
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
