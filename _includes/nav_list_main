@@ -59,8 +59,8 @@
             <span class="nav__sub-title" style="color:#ABDFF1;; font-size:1rem; font-family:'KyoboHand'">전자기기 자격증</span>
             <ul>
                 {% for category in site.categories %}
-                {% if category[0] == "github" %}
-                <li><a href="/categories/Electronics" class="">전자기기 기능사({{category[1].size}})</a></li>
+                {% if category[0] == "electronics" %}
+                <li><a href="/categories/electronics" class="">전자기기 기능사({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
